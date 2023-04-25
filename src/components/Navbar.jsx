@@ -10,13 +10,13 @@ import {
 
 function Navbar() {
   return (
-    <Flex as="nav" p="10px" alignItems="center">
+    <Flex as="nav" p="10px" alignItems="center" mb="40px">
       <Heading as="h1">Dojo Task</Heading>
 
       <Spacer />
 
       <HStack spacing="10px">
-        <Box bg="gray.200" p="10px">
+        <Box bg="purple.400" p="10px">
           M
         </Box>
         <Text>mario@netninja.dev</Text>

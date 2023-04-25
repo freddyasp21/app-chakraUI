@@ -1,5 +1,12 @@
+import { TabList, TabPanels, Tabs } from "@chakra-ui/react";
+
 export default function Profile() {
   return (
-    <div>Profile</div>
-  )
+    <Tabs>
+      <TabList></TabList>
+      <TabPanels>
+        
+      </TabPanels>
+    </Tabs>
+  );
 }
