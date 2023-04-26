@@ -20,7 +20,7 @@ export default function Dashboard() {
               </Box>
             </Flex>
           </CardHeader>
-          
+
           <CardBody color="gray.500">
             <Text>{task.description}</Text>
           </CardBody>

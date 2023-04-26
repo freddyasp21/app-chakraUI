@@ -16,7 +16,7 @@ function Navbar() {
       <Spacer />
 
       <HStack spacing="10px">
-        <Box bg="purple.400" p="10px">
+        <Box bg="purple.400" p="10px" color="white">
           M
         </Box>
         <Text>mario@netninja.dev</Text>
