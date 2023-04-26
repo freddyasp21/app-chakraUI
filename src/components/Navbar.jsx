@@ -1,5 +1,7 @@
 import { UnlockIcon } from "@chakra-ui/icons";
 import {
+  Avatar,
+  AvatarBadge,
   Box,
   Button,
   Flex,
@@ -32,10 +34,12 @@ function Navbar() {
 
       <Spacer />
 
-      <HStack spacing="10px">
-        <Box bg="purple.400" p="10px" color="white">
-          M
-        </Box>
+      <HStack spacing="20px">
+        <Avatar src="/img/mario.png">
+          <AvatarBadge w="1.3em" bg="teal.500">
+            <Text fontSize="xs" color="white">3</Text>
+          </AvatarBadge>
+          </Avatar>
         <Text>mario@netninja.dev</Text>
         <Button colorScheme="purple" onClick={showToast}>
           Logout
