@@ -29,7 +29,7 @@ function Navbar() {
   };
 
   return (
-    <Flex as="nav" p="10px" alignItems="center" mb="40px">
+    <Flex as="nav" p="10px" alignItems="center" mb="40px" bg="blue.500">
       <Heading as="h1">Dojo Task</Heading>
 
       <Spacer />

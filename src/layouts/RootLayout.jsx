@@ -9,9 +9,9 @@ export default function RootLayout() {
       <GridItem
         as="aside"
         colSpan={{ base: 6, lg: 2, xl: 1 }}
-        bg="purple.400"
+        bg="blue.600"
         minH={{lg:"100vh"}}
-        p={{ base: "20px", lg: "30px" }}
+        p={{ base: "20px"}}
       >
         <Sidebar/>
       </GridItem>
